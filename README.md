@@ -82,7 +82,7 @@
 ## セットアップ
 
 ```bash
-npm install
+pnpm install
 ```
 
 `.env` に認証情報を設定します（`.env.example` を参照）。
@@ -102,7 +102,7 @@ CLIENT_SECRET=発行されたクライアントシークレット
 ## 開発
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 http://localhost:5173 で起動します。
@@ -110,9 +110,9 @@ http://localhost:5173 で起動します。
 ## 型チェック / ビルド
 
 ```bash
-npm run typecheck
-npm run build
-npm run start   # 本番サーバー
+pnpm typecheck
+pnpm build
+pnpm start   # 本番サーバー
 ```
 
 本番では `.env` の代わりにホスティング環境の環境変数として
